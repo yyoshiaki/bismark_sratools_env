@@ -3,7 +3,7 @@
 ## first connection
 
 ```
-docker run -it -v ${PWD}:/bismark --name some_name yyasumizu/bismarksratoolsenv:1.0 bash
+docker run -it -v ${PWD}:/bismark --name some_name yyasumizu/bismarksratoolsenv:1.1 bash
 ```
 
 If the access to the instance is the first time, do `vdb-config --interactive`.
