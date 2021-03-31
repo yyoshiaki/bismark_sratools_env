@@ -3,7 +3,7 @@ FROM continuumio/miniconda3:4.5.12
 
 RUN apt-get update \
  && apt-get install -y --no-install-recommends \
-    cowsay vim htop \
+    cowsay vim htop neofetch\
  && apt-get -y clean \
  && rm -rf /var/lib/apt/lists/*
 
